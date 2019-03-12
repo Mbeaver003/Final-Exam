@@ -7,8 +7,13 @@
 visitor_count = 0
 possible_visitor_count = 0
 
-Q1 = def(input("Would you like to have a website built for you? Y/N")):
+Q1 = input("Would you like to have a website built for you? Type Yes or No. ")
 
-if Q1 = Y:
-    then print("We can do that for you!")
-    else print("Maybe another time.")
+while (Q1 != "Yes","No"):
+
+    if Q1 == "Yes":
+        print("We can do that for you!")
+    elif Q1 == "No":
+        print("Maybe another time.")
+    else:
+        print("That is not an actual variable. ")
