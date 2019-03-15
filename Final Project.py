@@ -1,10 +1,15 @@
 # Matthew Beaver
 # Final Exam
 
+"""In this project, I am going to create a program that asks people whether or not they would want my website building buisness
 
-#In this project, I am going to create a program that asks people whether or not they would want my website building buisness
+
+Starting on line 23 I am going to find out what type of website they might want.
 
 
+
+
+"""
 Q1 = input("Would you like to have a website built for you? Type Yes or No. ")
 
 if Q1 == "Yes":
@@ -15,7 +20,6 @@ else:
     print("That is not an actual variable. ")
 
 
-#In this while statement I am going to figure out some details of what type of website they want.
 while Q1 == "Yes":
     Website_Type = input("What type of website would you like me to make for you?  Buisness, or Personal. ")
     num_of_people = int(input("How many people would have ownership of this website? "))
