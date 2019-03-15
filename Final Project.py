@@ -1,15 +1,12 @@
 # Matthew Beaver
 # Final Exam
 
-"""In this project, I am going to create a program that asks people whether or not they would want my website building buisness
+"""In this project, I am going to create a program that asks people whether or not they would want my website building
 
-
-Starting on line 23 I am going to find out what type of website they might want.
-
-
-
+buisness and find out what type of website they want, who is the owners and what their price range is.
 
 """
+# Starting here I am going to find out whether they would like to have a website built for them
 Q1 = input("Would you like to have a website built for you? Type Yes or No. ")
 
 if Q1 == "Yes":
@@ -27,3 +24,12 @@ while Q1 == "Yes":
         name = input("What is your name? ")
         print(name + " has ownership of the " + Website_Type + " website")
     break
+
+if Q1 == "Yes":
+    budget_of_website = float(input("Now, it is time to decide your budget, you can put up to $1000.  The more money you are willing to spend, the better features are possible to get."))
+    if budget_of_website < 100:
+        print("Little low, you are probably not looking for much")
+    elif budget_of_website > 100:
+        print("Wow, you are expecting a lot, but we can do that for you!!")
+    elif budget_of_website == 100:
+        ("That is a very exact price.")
